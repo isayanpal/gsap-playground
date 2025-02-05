@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: white;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  overflow-x: hidden;
+}
+
+main{
+  height: 100vh;
+  width: 100%;
+  background-color: #111;
+  padding: 20px;
+}
+.box{
+  height: 300px;
+  width: 300px;
+  background-color: crimson;
+  border-radius: 20px;
+}
+.box2{
+  height: 300px;
+  width: 300px;
+  background-color: crimson;
+  border-radius: 20px;
+}
+
+.container{
+  padding: 20px;
+  border: white 3px solid;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
